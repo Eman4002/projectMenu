@@ -17,17 +17,17 @@ class Starters {
     // Static variable to keep track of the total money
 
    // this needs to be a question instead
-    private static double totalMoney = 1000.0;  // Initial amount
-
-    // Static method to get the total money
-    public static double getTotalMoney() {
-        return totalMoney;
-    }
-
-    // Static method to update the total money
-    public static void updateTotalMoney(double amount) {
-        totalMoney += amount;
-    }
+//    private static double totalMoney = 1000.0;  // Initial amount
+//
+//    // Static method to get the total money
+//    public static double getTotalMoney() {
+//        return totalMoney;
+//    }
+//
+//    // Static method to update the total money
+//    public static void updateTotalMoney(double amount) {
+//        totalMoney += amount;
+//    }
 
     // Method to display the menu
     public static void displayMenu() {
@@ -84,6 +84,7 @@ class Menu {
 // Main class to start the program
 public class Main {
     public static void main(String[] args) {
+        test.testing();
         // Create an instance of the Menu class
         Menu menu = new Menu();
 
